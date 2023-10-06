@@ -1,0 +1,160 @@
+/* header */
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.6
+}
+
+.chat_heading {
+    display: flex;
+    padding: 17px;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+
+}
+
+.chat_heading_info {
+    flex: 1;
+    padding-left: 15px;
+
+}
+
+.chat_heading_info h3 {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.chat_heading_info p {
+    color: gray;
+    font-size: 12px;
+
+}
+
+/* chatbody */
+
+.chat_body {
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-position: center;
+    background-size: contain;
+    padding: 10px;
+    overflow-y: scroll;
+
+
+}
+
+.chat_message {
+    display: flex;
+    flex: 1;
+    padding-right: 10px;
+    justify-content: right;
+
+}
+
+.sender {
+    background-color: rgb(148, 240, 148);
+}
+
+.chat_message .MuiAvatar-root {
+    height: 35px !important;
+    width: 35px !important;
+
+}
+
+.chat_message .MuiSvgIcon-root {
+    color: #fff !important;
+
+}
+
+.chat_message_box {
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_message_box_name {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.chat_message_box_msg {
+    display: inline-block;
+    /* margin: 3px 0; */
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.chat_message_box_time {
+    display: block;
+    text-align: end;
+    font-size: 12px;
+}
+
+
+.chat_message_1 {
+    display: flex;
+    flex: 1;
+}
+
+.chat_message_1 .MuiAvatar-root {
+    height: 35px !important;
+    width: 35px !important;
+
+}
+
+.chat_message_box_name_1 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.chat_input {
+    display: flex;
+    padding: 5px;
+    height: 32px;
+    align-items: center;
+}
+
+.chat_input .MuiSvgIcon-root {
+    color: gray !important;
+}
+
+/* bottom */
+
+
+.form {
+    display: flex;
+    flex: 1;
+}
+
+.chat_input_msg {
+    flex: 1;
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.chat_input_btn {
+    border: none;
+}
+
+.chat_input_btn .MuiAvatar-root {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: green;
+    text-align: center !important;
+    outline: none !important;
+}
+
+.chat_input_btn .MuiAvatar-root .MuiSvgIcon-root {
+    font-size: 16px !important;
+    color: #fff !important;
+}

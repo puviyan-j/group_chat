@@ -1,0 +1,22 @@
+.app{
+    background-color: gray;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sidebar_body {
+    display: flex;
+    height: 90vh;
+    width: 65vw;
+    background-color: #ededed;
+    margin-top: 2px;
+}
+.chat_message .MuiSvgIcon-root{
+   
+    color: aqua;
+}
+.chat_message_1{
+    position: relative;
+}
+ 
